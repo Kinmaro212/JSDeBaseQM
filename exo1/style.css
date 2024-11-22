@@ -1,10 +1,14 @@
-.carre{
+.carre {
+    width: 200px;
+    height: 200px;
     background-color: rgb(136,174,136);
     color: rgb(255, 255, 255);
-    height: 200px;
-    width: 200px;
-    display: flex;
     font-family: "Time New Roman";
     font-size: 40px;
+    display: flex;
+    align-items: center;
     justify-content: center;
+ 
+
+    cursor: pointer; /* Indique que l'élément est cliquable */
 }
