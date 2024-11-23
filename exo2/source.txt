@@ -1,0 +1,16 @@
+Docuementation pr crée les fonctions et appeler le css dans le JS
+
+https://developer.mozilla.org/fr/docs/Web/API/Document/querySelector
+Documentation sur la méthode querySelector utilisée pour sélectionner un élément du DOM en fonction d'un sélecteur CSS.
+
+https://developer.mozilla.org/fr/docs/Web/API/EventTarget/addEventListener
+Explications sur la méthode addEventListener, qui permet d'attacher des gestionnaires d'événements à des éléments DOM.
+
+https://developer.mozilla.org/fr/docs/Web/API/Window/getComputedStyle
+Documentation détaillée sur la fonction getComputedStyle, utilisée pour obtenir les styles CSS calculés d'un élément.
+
+https://developer.mozilla.org/fr/docs/Web/API/Window/alert
+Informations sur la méthode alert, qui affiche un message dans une boîte de dialogue modale.
+
+https://developer.mozilla.org/fr/docs/Web/API/Element/className
+Explications sur la propriété className qui permet de lire ou définir les classes CSS d’un élément.

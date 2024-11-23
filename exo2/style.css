@@ -1,0 +1,81 @@
+.carre1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 128, 117);
+    color: rgb(255, 255, 255);
+    font-family: "Time New Roman";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Indique que l'élément est cliquable */
+    margin: 6px;
+}
+
+.carre2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(204,10,10);
+    color: rgb(255, 255, 255);
+    font-family: "Time New Roman";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Indique que l'élément est cliquable */
+    margin: 6px;
+}
+
+.carre3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 118, 0);
+    color: rgb(255, 255, 255);
+    font-family: "Time New Roman";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Indique que l'élément est cliquable */
+    margin: 6px;
+}
+
+.carre4 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(166, 177, 2);
+    color: rgb(255, 255, 255);
+    font-family: "Time New Roman";
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Indique que l'élément est cliquable */
+    margin: 6px;
+}
+
+.carreInfo {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-family: "Time New Roman";
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Indique que l'élément est cliquable */
+    margin: 6px;
+    flex-wrap: wrap;
+
+}
+
+.carres{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 1em;
+    justify-content: center;
+
+}
+

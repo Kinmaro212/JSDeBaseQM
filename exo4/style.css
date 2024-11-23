@@ -1,0 +1,40 @@
+body {
+    background-color: gray; /* Couleur de fond initiale */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.carre {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0; /* Les carrés sont invisibles au départ */
+    border-radius: 0%; /* Pas de bord arrondi au départ */
+    transition: all 0.3s ease;
+}
+
+.carre img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Lorsque le carré est actif après un clic */
+.carre.active {
+    opacity: 1; /* Le carré devient visible */
+    border-radius: 10%; /* Bord arrondi */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre */
+}

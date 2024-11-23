@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.carres {
+    display: flex;
+    gap: 10px;
+}
+
+.carre {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+/* Style lorsque le carré est cliqué */
+.carre.active {
+    transform: rotate(360deg);  /* Rotation du carré */
+    background-color: red;     /* Changer la couleur de fond */
+    width: 180px;              /* Réduire la taille */
+    height: 180px;             /* Réduire la taille */
+}
