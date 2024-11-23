@@ -1,23 +1,32 @@
-// Sélectionner tous les carrés
-const carres = document.querySelectorAll('.carre');
+// Sélection de tous les éléments HTML avec la classe 'carre' (les carrés cliquables)
+const carres = document.querySelectorAll('.carre'); 
+
+// Sélection de l'élément HTML avec l'ID 'network-name'
+// Cet élément affichera le nom du réseau social sélectionné
 const networkName = document.getElementById('network-name');
 
-// Ajouter un événement de clic sur chaque carré
+// Ajout d'un événement "clic" sur chaque carré
+// La méthode forEach parcourt chaque élément de la liste 'carres'
 carres.forEach(carre => {
     carre.addEventListener('click', () => {
-        // Si le carré est déjà actif, réinitialiser
+        // Vérifie si le carré sur lequel on clique est déjà actif (possède la classe 'active')
         if (carre.classList.contains('active')) {
-            document.body.style.backgroundColor = 'gray'; // Revenir à la couleur de fond grise
-            networkName.textContent = 'Sélectionnez un réseau social'; // Réinitialiser le nom
-            carre.classList.remove('active'); // Retirer le style actif
+            // Si le carré est actif, réinitialiser l'état global
+            document.body.style.backgroundColor = 'gray'; // Revenir à une couleur de fond grise par défaut
+            networkName.textContent = 'Sélectionnez un réseau social'; // Réinitialiser le texte à un message générique
+            carre.classList.remove('active'); // Retirer la classe 'active' du carré
         } else {
-            // Désactiver tous les autres carrés
+            // Désactiver tous les autres carrés (retirer la classe 'active' des autres éléments)
             carres.forEach(c => c.classList.remove('active'));
 
-            // Activer le carré sur lequel on clique
+            // Activer le carré cliqué en lui ajoutant la classe 'active'
             carre.classList.add('active');
-            document.body.style.backgroundColor = carre.style.backgroundColor; // Couleur du carré
-            networkName.textContent = carre.getAttribute('data-network'); // Afficher le nom du réseau social
+
+            // Modifier la couleur de fond de la page pour correspondre à la couleur du carré
+            document.body.style.backgroundColor = carre.style.backgroundColor;
+
+            // Afficher le nom du réseau social correspondant, grâce à l'attribut 'data-network' du carré
+            networkName.textContent = carre.getAttribute('data-network');
         }
     });
 });

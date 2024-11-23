@@ -1,40 +1,44 @@
+/* Style global pour la page */
 body {
-    background-color: gray; /* Couleur de fond initiale */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    flex-direction: column;
-    text-align: center;
+    background-color: gray; /* Couleur de fond initiale de la page */
+    display: flex; /* Permet de centrer les éléments avec Flexbox */
+    justify-content: center; /* Centrer horizontalement les enfants */
+    align-items: center; /* Centrer verticalement les enfants */
+    height: 100vh; /* Hauteur de la page = hauteur de la fenêtre */
+    margin: 0; /* Supprime les marges par défaut */
+    font-family: Arial, sans-serif; /* Police utilisée pour le texte */
+    flex-direction: column; /* Les enfants s'alignent verticalement */
+    text-align: center; /* Centrer le texte */
 }
 
+/* Style du conteneur des carrés */
 .container {
-    display: flex;
-    gap: 20px;
+    display: flex; /* Les carrés sont alignés horizontalement */
+    gap: 20px; /* Espacement entre les carrés */
 }
 
+/* Style des carrés avant interaction */
 .carre {
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    opacity: 0; /* Les carrés sont invisibles au départ */
-    border-radius: 0%; /* Pas de bord arrondi au départ */
-    transition: all 0.3s ease;
+    width: 200px; /* Largeur des carrés */
+    height: 200px; /* Hauteur des carrés */
+    display: flex; /* Centrer le contenu à l'intérieur des carrés */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    cursor: pointer; /* Le pointeur change en main au survol */
+    opacity: 0; /* Initialement, les carrés sont invisibles */
+    border-radius: 0%; /* Bordures carrées au départ */
+    transition: all 0.3s ease; /* Animation fluide pour toutes les propriétés */
 }
 
+/* Style des images à l'intérieur des carrés */
 .carre img {
-    width: 50px;
-    height: 50px;
+    width: 50px; /* Largeur de l'image */
+    height: 50px; /* Hauteur de l'image */
 }
 
-/* Lorsque le carré est actif après un clic */
+/* Style des carrés lorsqu'ils deviennent actifs après un clic */
 .carre.active {
     opacity: 1; /* Le carré devient visible */
-    border-radius: 10%; /* Bord arrondi */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre */
+    border-radius: 10%; /* Les coins du carré deviennent arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ajout d'une ombre douce */
 }
