@@ -1,44 +1,44 @@
 body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif; /* Définit la police principale pour le corps de la page. Ici, Arial est utilisée avec une alternative sans-serif. */
+    padding: 20px; /* Ajoute un espace intérieur de 20px autour du contenu de la page. */
+    background-color: #f4f4f4; /* Définit une couleur de fond gris clair pour toute la page. */
 }
 
 #quotes-container {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Ajoute un espace de 20px en bas du conteneur des citations pour séparer les éléments suivants. */
 }
 
 .quote {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    transition: all 0.3s ease;
+    background-color: #fff; /* Définit un fond blanc pour chaque carte de citation. */
+    border: 1px solid #ccc; /* Ajoute une bordure fine grise autour de la carte. */
+    padding: 10px; /* Ajoute un espace intérieur de 10px pour éloigner le contenu des bords. */
+    margin: 10px 0; /* Ajoute un espace de 10px au-dessus et en dessous de chaque carte. */
+    border-radius: 5px; /* Arrondit légèrement les coins de la carte avec un rayon de 5px. */
+    transition: all 0.3s ease; /* Ajoute une transition fluide  pour tous les changements de style, avec un effet "ease" (accélération/décélération douce). */
 }
 
 .quote button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 5px 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 3px;
-    transition: background-color 0.3s ease;
+    background-color: #4CAF50; /* Définit une couleur de fond verte pour les boutons sur les cartes de citation. */
+    color: white; /* Change la couleur du texte du bouton en blanc pour un bon contraste avec le fond. */
+    padding: 5px 10px; /* Ajoute un espace intérieur (haut/bas : 5px, gauche/droite : 10px) pour agrandir le bouton. */
+    border: none; /* Supprime toute bordure autour du bouton. */
+    cursor: pointer; /* Change le curseur en pointeur lorsqu'on survole le bouton, indiquant qu'il est cliquable. */
+    border-radius: 3px; /* Arrondit légèrement les coins du bouton avec un rayon de 3px. */
+    transition: background-color 0.3s ease; /* Ajoute une transition fluide de 0.3s pour le changement de couleur de fond du bouton. */
 }
 
 .quote button:hover {
-    background-color: #45a049;
+    background-color: #45a049; /* Change la couleur de fond en un vert légèrement plus sombre lorsqu'on survole le bouton (effet "hover"). */
 }
 
 #favorites-list {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: none; /* Supprime les puces ou numéros par défaut des éléments de la liste des favoris. */
+    padding: 0; /* Supprime les marges intérieures du conteneur de la liste des favoris. */
 }
 
 #favorites-list li {
-    padding: 5px;
-    background-color: #e7e7e7;
-    margin: 5px 0;
-    border-radius: 3px;
+    padding: 5px; /* Ajoute un espace intérieur de 5px à chaque élément de la liste des favoris. */
+    background-color: #e7e7e7; /* Définit une couleur de fond gris clair pour chaque élément de la liste des favoris. */
+    margin: 5px 0; /* Ajoute un espace de 5px au-dessus et en dessous de chaque élément de la liste. */
+    border-radius: 3px; /* Arrondit légèrement les coins des éléments de la liste avec un rayon de 3px. */
 }

@@ -5,13 +5,13 @@ const carres = document.querySelectorAll('.carre');
 // Cet élément affichera le nom du réseau social sélectionné
 const networkName = document.getElementById('network-name');
 
-// Ajout d'un événement "clic" sur chaque carré
+// Ajout d'un événement clic sur chaque carré
 // La méthode forEach parcourt chaque élément de la liste 'carres'
 carres.forEach(carre => {
     carre.addEventListener('click', () => {
         // Vérifie si le carré sur lequel on clique est déjà actif (possède la classe 'active')
         if (carre.classList.contains('active')) {
-            // Si le carré est actif, réinitialiser l'état global
+            // Si le carré est actif, on réinitialise l'état global
             document.body.style.backgroundColor = 'gray'; // Revenir à une couleur de fond grise par défaut
             networkName.textContent = 'Sélectionnez un réseau social'; // Réinitialiser le texte à un message générique
             carre.classList.remove('active'); // Retirer la classe 'active' du carré

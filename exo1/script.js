@@ -2,9 +2,9 @@
 const carre = document.querySelector(".carre");
 
 // Ajoute un écouteur d'événements qui s'active au clic sur l'élément 'carre' 
-//et récupère toute les information du fichier css q'uon a établit dans notre fichier JS
+//et récupère toute les informations du fichier css q'uon a établit dans notre fichier JS
 carre.addEventListener("click", () => {
-    // Récupère les styles CSS appliqués à l'élément 'carre'
+    // On Récupère les styles CSS appliqués à l'élément 'carre'
     const styles = window.getComputedStyle(carre);
 
     // Récupère la classe CSS de l'élément

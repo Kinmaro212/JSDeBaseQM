@@ -1,20 +1,25 @@
 const carre1 = document.querySelector(".carre1");
 // Ajoute un écouteur d'événements qui s'active au clic sur l'élément 'carre' 
 //et récupère toute les information du fichier css q'uon a établit dans notre fichier JS
+// Permet de selectionner un élement HTML ou le premier élément css correspondant a un sélécteur CSS
 
 const carre2 = document.querySelector(".carre2");
 // Ajoute un écouteur d'événements qui s'active au clic sur l'élément 'carre' 
 //et récupère toute les information du fichier css q'uon a établit dans notre fichier JS
+// Permet de selectionner un élement HTML ou le premier élément css correspondant a un sélécteur CSS
 
 const carre3 = document.querySelector(".carre3");
 // Ajoute un écouteur d'événements qui s'active au clic sur l'élément 'carre' 
 //et récupère toute les information du fichier css q'uon a établit dans notre fichier JS
+// Permet de selectionner un élement HTML ou le premier élément css correspondant a un sélécteur CSS
 
 const carre4 = document.querySelector(".carre4");
 // Ajoute un écouteur d'événements qui s'active au clic sur l'élément 'carre' 
 //et récupère toute les information du fichier css q'uon a établit dans notre fichier JS
 
+
 const carreInfo = document.querySelector(".carreInfo");
+// Permet de selectionner un élement HTML ou le premier élément css correspondant a un sélécteur CSS
     
 
 

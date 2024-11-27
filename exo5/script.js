@@ -1,11 +1,10 @@
 // Ce code s'exécute lorsque toute la page HTML est chargée.
-// On attend que le DOM soit prêt avant de manipuler les éléments de la page.
 document.addEventListener("DOMContentLoaded", function () {
     // Sélection des conteneurs HTML où les citations et les favoris seront affichés
     const quotesContainer = document.getElementById("quotesContainer");
     const favoritesContainer = document.getElementById("favoritesContainer");
 
-    // Vérification que l'objet 'quotes' est bien défini. Si ce n'est pas le cas, une erreur est affichée dans la console.
+    // On vérifie que l'objet 'quotes' est bien défini. Si ce n'est pas le cas, une erreur est affichée dans la console.
     if (!quotes) {
         console.error("L'objet 'quotes' n'est pas défini."); // Message d'erreur si le fichier quotes.js est manquant ou incorrect
         return; // On arrête l'exécution du script
@@ -50,8 +49,8 @@ document.addEventListener("DOMContentLoaded", function () {
             </div>
         `;
 
-        // Ajout d'un gestionnaire d'événement au bouton "Retirer des favoris".
-        // Lorsqu'on clique sur ce bouton, l'élément correspondant est supprimé de la page.
+        // Ajout d'un  d'événement au bouton "Retirer des favoris".
+        // Lorsqu'on clique sur ce bouton, l'élément  est supprimé de la page.
         favoriteCard.querySelector(".remove-from-favorites").addEventListener("click", function () {
             favoriteCard.remove(); // Supprime la carte HTML de la citation favorite
         });
