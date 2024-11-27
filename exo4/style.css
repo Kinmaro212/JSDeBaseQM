@@ -25,7 +25,6 @@ body {
     justify-content: center; /* Centrer horizontalement */
     align-items: center; /* Centrer verticalement */
     cursor: pointer; /* Le pointeur change en main au survol */
-    opacity: 0; /* Initialement, les carrés sont invisibles */
     border-radius: 0%; /* Bordures carrées au départ */
     transition: all 0.3s ease; /* Animation fluide pour toutes les propriétés */
 }
@@ -38,7 +37,7 @@ body {
 
 /* Style des carrés lorsqu'ils deviennent actifs après un clic */
 .carre.active {
-    opacity: 1; /* Le carré devient visible */
+  
     border-radius: 10%; /* Les coins du carré deviennent arrondis */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ajout d'une ombre douce */
 }

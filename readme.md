@@ -1,97 +1,92 @@
-README - Exercices PHP
+# Exercices JavaScript - Base
 
-Ce fichier documente cinq exercices PHP. Chaque exercice contient une description de son objectif, de son fonctionnement, et des instructions pour l'exécuter correctement. Voici les détails :
+Bienvenue dans cette série d'exercices JavaScript pour renforcer vos compétences et découvrir des fonctionnalités intéressantes de ce langage. Vous trouverez ci-dessous les consignes pour chaque exercice ainsi que des explications claires pour comprendre leur objectif.
 
-Exercice 1 : Titre descriptif
+---
 
-Objectif
+## I. Exercice 1 : Carré interactif
 
-Description claire de l'objectif de l'exercice.
+**Objectif** : Créer une page web avec un carré interactif.
 
-Fonctionnement
+### Instructions :
+1. Affichez un carré de 200 x 200 pixels avec :
+   - Une couleur de fond de votre choix.
+   - Un texte centré à l'intérieur du carré.
+2. Ajoutez un événement `onclick` pour déclencher une alerte affichant les informations suivantes :
+   - La classe CSS du carré.
+   - La couleur du texte et du fond.
+   - La hauteur et la largeur.
+   - La police et la taille du texte.
 
-Expliquez comment fonctionne le script. Par exemple :
+![alt text](image.png)
 
-Entrées attendues
+---
 
-Résultats obtenus
+## II. Exercice 2 : Transfert de couleur
 
-Instructions
+**Objectif** : Créer une interaction entre deux groupes de carrés colorés.
 
-Téléchargez le fichier exercice1.php.
+### Instructions :
+1. Affichez 4 carrés de 200 x 200 pixels avec des couleurs de fond différentes.
+2. Ajoutez une interaction :
+   - Lorsque vous cliquez sur un carré du groupe du haut, le carré correspondant en bas prend sa couleur.
+   - Affichez le code couleur du carré sélectionné.
 
-Placez-le dans le dossier racine de votre serveur local.
+![alt text](image-6.png)
+![alt text](image-7.png)
 
-Accédez à http://localhost/exercice1.php depuis votre navigateur.
+---
 
-Exercice 2 : Titre descriptif
+## III. Exercice 3 : Carrés dynamiques
 
-Objectif
+**Objectif** : Créer des animations sur des carrés interactifs.
 
-Description claire de l'objectif de l'exercice.
+### Instructions :
+1. Affichez 4 carrés de 200 x 200 pixels avec un fond vert.
+2. Numérotez chaque carré de 1 à 4 et disposez-les comme dans l'exemple fourni.
+3. Ajoutez une interaction :
+   - Lors d'un clic, le carré rétrécit de 10 %, effectue une rotation de 360°, et change son fond en rouge.
+   - Lors d'un second clic, le carré revient à son état initial.
 
-Fonctionnement
+![alt text](image-2.png)
 
-Expliquez comment fonctionne le script.
+---
 
-Instructions
+## IV. Exercice 4 : Arrière-plan dynamique
 
-Téléchargez le fichier exercice2.php.
+**Objectif** : Modifier le fond de la page et styliser des icônes.
 
-Configurez les paramètres nécessaires dans le fichier.
+### Instructions :
+1. Créez une page avec un fond gris et 3 icônes représentant des réseaux sociaux.
+2. Ajoutez une interaction :
+   - Lorsqu'on clique sur une icône :
+     - Le fond de la page prend la couleur associée.
+     - Le nom du réseau social s'affiche.
+     - Les bords de l'icône deviennent arrondis et une ombre apparaît.
+   - Lors d'un second clic sur la même icône :
+     - Le fond redevient gris.
+     - L'icône revient à son état initial.
 
-Lancez l'exécution depuis un navigateur ou une console.
 
-Exercice 3 : Titre descriptif
+![alt text](image-3.png)
 
-Objectif
+![alt text](image-4.png)
+---
 
-Description claire de l'objectif de l'exercice.
+## V. Exercice 5 : Citations et favoris
 
-Fonctionnement
+**Objectif** : Manipuler un tableau associatif pour afficher et sauvegarder des citations.
 
-Expliquez comment fonctionne le script.
+### Instructions :
+1. Créez un fichier `quotes.js` contenant un tableau associatif avec des citations.
+2. Ajoutez un script JavaScript pour :
+   - Parcourir et afficher les citations sur la page.
+   - Implémenter un système de favoris permettant de marquer une citation.
+3. **BONUS** :
+   - Stockez les favoris dans le `localStorage` pour qu'ils soient conservés après rechargement de la page.
 
-Instructions
+![alt text](image-5.png)
 
-Installez les dépendances si nécessaire.
+---
 
-Téléchargez le fichier exercice3.php.
 
-Exécutez le script dans un environnement PHP.
-
-Exercice 4 : Titre descriptif
-
-Objectif
-
-Description claire de l'objectif de l'exercice.
-
-Fonctionnement
-
-Expliquez comment fonctionne le script.
-
-Instructions
-
-Modifiez les configurations dans le fichier selon vos besoins.
-
-Placez le fichier dans un dossier accessible par votre serveur.
-
-Exécutez le script via l'URL correspondante.
-
-Exercice 5 : Titre descriptif
-
-Objectif
-
-Description claire de l'objectif de l'exercice.
-
-Fonctionnement
-
-Expliquez comment fonctionne le script.
-
-Instructions
-
-Préparez un environnement avec les versions requises de PHP.
-
-Téléchargez et placez le fichier exercice5.php dans votre projet.
-
-Testez en ligne de commande ou via un navigateur.
