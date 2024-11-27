@@ -9,6 +9,8 @@ body {
 
 .carres {
     display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,200px);
     gap: 10px;
 }
 
